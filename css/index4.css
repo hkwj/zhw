@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size:32px;}
+#warp{
+	min-width:10rem;
+	position:relative;
+}
+
+/*head开始*/
+#head{
+	width:10rem;
+	height:1.17rem;
+	background:#fff;
+	text-align:center;
+	line-height:1.17rem;
+	margin:0 auto;
+}
+#head ul{
+	padding:0px 0.32rem;
+}
+#head ul li:nth-child(2){
+	display:inline-block;
+	text-align:center;
+}
+#head ul li a{
+	font:0.3rem "微软雅黑";
+	color:#a2daf6;
+}
+#head ul li a.black{
+	font: bold 0.3rem "微软雅黑";
+	color:#000;
+}
+#head ul li a .icon_a{
+	display:inline-block;
+	padding-top:0.18rem;
+	width:0.3rem;
+	height:0.46rem;
+	background:url(../images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%834_12.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+#head ul li a span:last-child{
+	padding-left:0.14rem;
+}
+#head ul li a span{
+	margin-top:0.51rem;
+	float:left;
+}
+/*head结束*/
+/*main开始*/
+#main{
+	width:9.34rem;
+	background:#f3f3f3;
+	margin:0 auto;
+	padding: 0 0.32rem ;
+	overflow:hidden;
+	border-bottom:1px solid #e1e2e3;
+}
+#main .box{
+	width:10rem;
+	
+}
+#main ul{
+	padding-top:0.32rem;
+	width:10rem;
+	
+	
+}
+#main ul li{
+	float:left;
+	width:2.85rem;
+	height:0.86rem;
+	text-align:center;
+	line-height:0.86rem;
+	background:#ccc;
+	margin-right:0.4rem;
+	margin-bottom:0.46rem;
+	border-radius:0.27rem;
+}
+#main ul li:nth-child(3){
+	margin-right:0px;
+}
+#main .box ul li:nth-child(6){
+	margin-right:0px;
+}
+#main .box ul li a{
+	display:block;
+	font-size:0.27rem;
+	line-height:0.86rem;
+	color:#000;
+}
+#main p{
+	text-indent:2em;
+	padding-bottom:1.33rem;
+	padding-top:0.80rem;
+	font-size:0.4rem;
+}
+#word{
+	width:9.34rem;
+	background:#f3f3f3;
+	margin:0 auto;
+	padding: 0 0.32rem ;
+	overflow:hidden;
+	border-bottom:1px solid #e1e2e3;
+}
+#word p{
+	font-size:0.32rem;
+	height:4rem;
+}
+/*main结束*/
+/*footer开始*/
+#footer{
+	width:9.95rem;
+	background:#fff;
+	margin:0 auto;
+    line-height:0.88rem;
+	border:1px solid #e3e3e3;
+}
+#footer .back{
+	width:10rem;
+	background:#CCF;
+	margin:0 auto;
+	text-align:center;
+	line-height:0.88rem;
+	border-radius:0.07rem;
+}
+#footer .back a{
+	color:#3e3e3e;
+	font-size:0.4rem;
+}
+/*footer结束*/

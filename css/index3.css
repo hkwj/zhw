@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size:32px;}
+#warp{
+	min-width:10rem;
+	position:relative;
+}
+
+/*head开始*/
+#head{
+	width:10rem;
+	height:1.17rem;
+	background:#fff;
+	text-align:center;
+	line-height:1.17rem;
+	margin:0 auto;
+}
+#head ul{
+	padding:0px 0.32rem;
+}
+#head ul li:nth-child(2){
+	display:inline-block;
+	text-align:center;
+}
+#head ul li a{
+	font:0.3rem "微软雅黑";
+	color:#a2daf6;
+}
+#head ul li a.black{
+	font: bold 0.3rem "微软雅黑";
+	color:#000;
+}
+#head ul li a .icon_a{
+	display:inline-block;
+	padding-top:0.18rem;
+	width:0.3rem;
+	height:0.46rem;
+	background:url(../images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%834_12.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+#head ul li a span:last-child{
+	padding-left:0.14rem;
+}
+#head ul li a span{
+	margin-top:0.51rem;
+	float:left;
+}
+/*head结束*/
+/*main开始*/
+#main{
+	width:9.34rem;
+	background:#f3f3f3;
+	margin:0 auto;
+	padding: 0 0.32rem ;
+	overflow:hidden;
+}
+/*#main .box{
+	text-align:center;
+	line-height:300px;
+	width:200px;
+	height:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-1.33rem;
+	margin-rigth:-150px;
+}*/
+#main .ph{
+	width:2.28rem;
+	height:2.4rem;
+	background:url(../images/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC_18.png) no-repeat;
+	background-size:100% 100%;
+	margin:70px auto;
+	margin-bottom:0;
+}
+#main p{
+	text-indent:2em;
+	padding-bottom:1.33rem;
+	padding-top:0.80rem;
+	font-size:0.4rem;
+}
+/*main结束*/
+/*footer开始*/
+#footer{
+	width:9.95rem;
+	background:#fff;
+	margin:0 auto;
+    line-height:0.88rem;
+	border:1px solid #e3e3e3;
+}
+#footer .back{
+	width:4rem;
+	background:#CCF;
+	margin:0 auto;
+	text-align:center;
+	line-height:0.88rem;
+	border-radius:0.07rem;
+}
+#footer .back a{
+	dispaly:block;
+	color:#3e3e3e;
+	font-size:0.4rem;
+	line-height:0.88rem;
+}
+/*footer结束*/

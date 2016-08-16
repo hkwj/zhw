@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size:32px;}
+#warp{
+	
+	position:relative;
+}
+
+/*head开始*/
+#head{
+	width:23.44rem;
+	height:2.75rem;
+	background:#fff;
+	text-align:center;
+	line-height:2.75rem;
+	margin:0 auto;
+}
+#head ul{
+	padding:0px 0.75rem;
+}
+#head ul li:nth-child(2){
+	display:inline-block;
+	text-align:center;
+}
+#head ul li a{
+	font:0.69rem "微软雅黑";
+	color:#a2daf6;
+}
+#head ul li a.black{
+	font: bold 0.69rem "微软雅黑";
+	color:#000;
+}
+#head ul li a .icon_a{
+	display:inline-block;
+	padding-top:0.63rem;
+	width:0.69rem;
+	height:1.07rem;
+	background:url(../images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%834_12.png) no-repeat;
+	
+}
+#head ul li a span:last-child{
+	padding-left:0.32rem;
+}
+#head ul li a span{
+	margin-top:0.97rem;
+	float:left;
+}
+/*head结束*/
+/*banner开始*/
+#banner{
+	width:23.44rem;
+	height:10rem;
+	background:#4491e3;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*#banner .box{
+	text-align:center;
+	line-height:300px;
+	width:200px;
+	height:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-100px;
+	margin-rigth:-150px;
+}*/
+#banner .ph{
+	width:5.6rem;
+	height:4.94rem;
+	background:url(../images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83_18.png) no-repeat;
+	border-radius:50%;
+	margin:2.19rem auto;
+	margin-bottom:0;
+}
+#banner .num{
+	width:4.07rem;
+	height:0.94rem;
+	font-size:0.69rem;
+	color:#fff;
+	margin: 0.69rem auto;
+}
+/*banner结束*/
+/*content开始*/
+#content{
+	width:23.44rem;
+	background:#f3f3f3;
+	margin:0 auto;
+}
+#content ul{
+	margin-top:0.94rem;
+	background:#f3f3f3;
+}
+#content ul li{
+	padding: 0 0.75rem;
+	width:20.59rem;
+	height:2.07rem;
+	text-align:center;
+	font:0.63rem/2.07rem "宋体";
+	color:#3e3e3e;
+	border:0.04rem solid #e3e3e3;
+	background:#fff;
+}
+#content ul li:nth-child(2){
+	margin-bottom:0.63rem;
+	
+}
+#content ul li:nth-child(4){
+	margin-bottom:0.63rem;
+}
+#content ul li a span{
+	width:0.6rem;
+	height:0.88rem;
+	background:url(../images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83_43.png)no-repeat;
+}
+#content ul li:last-child sapn{
+	text-align:center;
+	line-height:2.07rem;
+}
+#content ul li:last-child{
+	color:red;
+}
+/*content结束*/
